@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-    // 1. Menu Responsivo
     const menuToggle = document.getElementById('menu-toggle');
     const navMenu = document.getElementById('nav-menu');
 
@@ -10,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // 2. Alternar Tema Claro/Escuro
+
     const themeToggle = document.getElementById('theme-toggle');
 
     if (themeToggle) {
@@ -21,7 +20,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // 3. Botão "Mostrar Mais" na Biografia
     const readMoreBtn = document.getElementById('read-more-btn');
     const moreBio = document.getElementById('more-bio');
 
@@ -32,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // 4. Validação do Formulário de Contato
+
     const contactForm = document.getElementById('contact-form');
     const formFeedback = document.getElementById('form-feedback');
 
@@ -63,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // 5. Ano Atual no Rodapé
+
     const currentYearSpan = document.getElementById('current-year');
     if (currentYearSpan) {
         currentYearSpan.textContent = new Date().getFullYear();

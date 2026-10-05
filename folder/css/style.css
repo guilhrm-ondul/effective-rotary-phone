@@ -13,11 +13,11 @@
 }
 
 body.dark-theme {
-    --bg-color: #1e1e1e;
-    --text-color: #f4f4f9;
-    --card-bg: #2d2d2d;
-    --primary-color: #4da6ff;
-    --accent-color: #80bfff;
+    --bg-color: #1e1e1e !important;
+    --text-color: #f4f4f9 !important;
+    --card-bg: #2d2d2d !important;
+    --primary-color: #4da6ff !important;
+    --accent-color: #80bfff !important;
 }
 
 body {

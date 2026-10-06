@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
         themeToggle.addEventListener('click', () => {
             document.body.classList.toggle('dark-theme');
             const isDark = document.body.classList.contains('dark-theme');
-            themeToggle.textContent = isDark ? '☀️ Modo Claro' : '🌙 Modo Escuro';
+            themeToggle.textContent = isDark ? 'Modo Claro' : 'Modo Escuro';
         });
     }
 
